@@ -1,6 +1,6 @@
 %define _disable_ld_no_undefined	1
 Name:           coquillo
-Version:        1.9
+Version:        1.12
 Release:        1
 License:        GPLv2
 Summary:        Audio Metadata Editor
@@ -19,8 +19,8 @@ FLAC and many others.
 
 %prep
 %setup -q
-%patch0 -p1
-%patch1 -p1
+#patch0 -p1
+#patch1 -p1
 
 %build
 %{qmake_qt4}
@@ -34,4 +34,3 @@ FLAC and many others.
 %{_bindir}/coquillo
 %{_datadir}/applications/coquillo.desktop
 %{_datadir}/pixmaps/coquillo.png
-%{_libdir}/coquillo/
