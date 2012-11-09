@@ -1,0 +1,48 @@
+Index: coquillo-1.9/src/bookmarks/bookmarks.pro
+===================================================================
+--- coquillo-1.9.orig/src/bookmarks/bookmarks.pro
++++ coquillo-1.9/src/bookmarks/bookmarks.pro
+@@ -2,6 +2,7 @@
+ include(../../libs.pri)
+ 
+ TEMPLATE = lib
++CONFIG += plugin
+ TARGET = $$ROOT/lib/coq_bookmarks
+ 
+ # Input
+Index: coquillo-1.9/src/cddb/cddb.pro
+===================================================================
+--- coquillo-1.9.orig/src/cddb/cddb.pro
++++ coquillo-1.9/src/cddb/cddb.pro
+@@ -2,6 +2,7 @@
+ include(../../libs.pri)
+ 
+ TEMPLATE = lib
++CONFIG += plugin
+ TARGET = $$ROOT/lib/coq_cddb
+ 
+ QT += network
+Index: coquillo-1.9/src/editor/editor.pro
+===================================================================
+--- coquillo-1.9.orig/src/editor/editor.pro
++++ coquillo-1.9/src/editor/editor.pro
+@@ -2,6 +2,7 @@
+ include(../../libs.pri)
+ 
+ TEMPLATE = lib
++CONFIG += plugin
+ TARGET = $$ROOT/lib/coq_editor
+ 
+ FORMS   += $$ROOT/ui/TagEditorBasics.ui \
+Index: coquillo-1.9/src/settings/settings.pro
+===================================================================
+--- coquillo-1.9.orig/src/settings/settings.pro
++++ coquillo-1.9/src/settings/settings.pro
+@@ -2,6 +2,7 @@
+ include(../../libs.pri)
+ 
+ TEMPLATE = lib
++CONFIG += plugin
+ TARGET = $$ROOT/lib/coq_settings
+ 
+ FORMS   += $$ROOT/ui/SettingsPage1.ui \
