@@ -1,4 +1,3 @@
-%define _disable_ld_no_undefined	1
 Name:           coquillo
 Version:        1.12
 Release:        1
@@ -7,8 +6,6 @@ Summary:        Audio Metadata Editor
 Url:            http://univerge.no-ip.org/?q=coquillo
 Group:          Sound
 Source0:        http://cs.joensuu.fi/~sjuvonen/coquillo/%{version}/%{name}-%{version}-src.tar.gz
-Patch0:		coquillo-1.9-mdv-plugins.patch
-Patch1:		coquillo-1.9-mdv-libsuff.patch
 BuildRequires:  taglib-devel >= 1.6
 BuildRequires:  qt4-devel
 
@@ -19,8 +16,6 @@ FLAC and many others.
 
 %prep
 %setup -q
-#patch0 -p1
-#patch1 -p1
 
 %build
 %{qmake_qt4}
