@@ -1,7 +1,7 @@
 Summary:	Audio Metadata Editor
 Name:		coquillo
 Version:	1.12
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Sound
 Url:		https://github.com/sjuvonen/coquillo
