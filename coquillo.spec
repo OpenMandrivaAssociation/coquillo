@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		Sound
 Url:		https://github.com/sjuvonen/coquillo
 Source0:	http://cs.joensuu.fi/~sjuvonen/coquillo/%{version}/%{name}-%{version}-src.tar.gz
+BuildRequires:	make
 BuildRequires:	qt4-devel
 BuildRequires:	pkgconfig(phonon)
 BuildRequires:	pkgconfig(taglib)
